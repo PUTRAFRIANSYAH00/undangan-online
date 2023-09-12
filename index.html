@@ -25,84 +25,134 @@
 
 <body>
 
-  <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center
-    align-items-center text-white">
-    <main>
-      <h4>Kepada Bapak/Ibu/Saudara/i, </h4>
-      <h1>Putra A & Janice K</h1>
-      <p>Akan melangsungkan resepsi pernikahan dalam:</p>
-      <div class="simply-countdown"></div>
-      <a href="#undangan" class="btn btn-lg">Lihat undangan</a>
-    </main>
-  </section>
+  <section
+      id="hero"
+      class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white"
+    >
+      <main>
+        <h4>Kepada <span>Bapak/Ibu/Saudara/i, </span></h4>
+        <h1>Putra & Janice</h1>
+        <p>Akan melakukan resepsi pernikahan dalam:</p>
+        <div class="simply-countdown"></div>
+        <a href="#home" class="btn btn-lg mt-4" onClick="enableScroll()"
+          >Lihat Undangan</a
+        >
+      </main>
+    </section>
 
-  <nav class="navbar navbar-expand-md bg-body-transparent sticky-top mynavbar">
-    <div class="container">
-      <a class="navbar-brand" href="#">Putra & Janice</a>
-      <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Putra & Janice</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <div class="navbar-nav ms-auto">
-            <a class="nav-link " href="#home">Home</a>
-            <a class="nav-link" href="#info">Info</a>
- 
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Putra & Janice</a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              Putra & Janice
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
           </div>
-        </div>
-      </div>
-    </div>
-  </nav>
-
-  <section id="home" class="home">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-8 text-center">
-          <h2>Acara Pernikahan</h2>
-          <h3>Diselenggarakan pada 25 Oktober 2027 , Bali.</h3>
-          <p>Oleh karena itu, dengan segala hormat, kami bermaksud untuk mengundang Bapak/Ibu, Saudara/i, untuk hadir
-            pada acara pernikahan kami.</p>
-        </div>
-      </div>
-
-      <div class="row couple">
-        <div class="col-lg-6">
-          <div class="row">
-            <div class="col-8 text-end">
-              <h3>Putra Afriansyah</h3>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga dolorem laboriosam dolore mollitia vero
-                minima id, nostrum nesciunt atque unde beatae odio non voluptate hic cum qui in cumque quia.</p>
-              <p>Putra dari Bpk. Lorem <br> dan <br> Ibu Ipsum</p>
-            </div>
-            <div class="col-4">
-              <img src="img/11zon_cropped (1).png" alt="Putra Afriansyah" class="img-responsive rounded-circle">
-            </div>
-          </div>
-        </div>
-
-        <span class="heart"><i class="bi bi-heart-fill"></i></span>
-
-        <div class="col-lg-6">
-          <div class="row">
-            <div class="col-4">
-              <img src="img/11zon_cropped (1) (1).png" alt="janice K" class="img-responsive rounded-circle">
-            </div>
-            <div class="col-8">
-              <h3>Janice Kaori</h3>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga dolorem laboriosam dolore mollitia vero
-                minima id, nostrum nesciunt atque unde beatae odio non voluptate hic cum qui in cumque quia.</p>
-              <p>Putra dari Bpk. Ipsum <br> dan <br> Ibu Lorem</p>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#info">Info</a>
+              <a class="nav-link" href="#story">Story</a>
+              <a class="nav-link" href="#gallery">Gallery</a>
+              <a class="nav-link" href="#rsvp">RSVP</a>
+              <a class="nav-link" href="#gifts">Gifts</a>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </nav>
+
+    <section class="home" id="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Acara pernikahan</h2>
+            <h3>
+              Diselenggarakan pada 25 Oktober  2027 di Bali 
+            </h3>
+            <p>
+              Oleh karena itu, dengan segala hormat, kami bermaksud untuk
+              mengundang Bapak/Ibu/Saudara/i, untuk hadir pada acara pernikahan
+              kami.
+            </p>
+          </div>
+        </div>
+
+        <div class="row couple">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-8 text-end">
+                <h3>Putra</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                  repudiandae iusto fuga laboriosam? Blanditiis, quidem.
+                </p>
+                <p>
+                  Putra dari Bpk. Lorem <br />
+                  dan <br />
+                  Ibu ipsum
+                </p>
+              </div>
+              <div class="col-4">
+                <img
+                  src="img/11zon_cropped (1).png"
+                  alt="Putra
+                  class="img-responsive rounded-circle"
+                />
+              </div>
+            </div>
+          </div>
+
+          <span class="heart"><i class="bi bi-heart-fill"></i></span>
+
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-4">
+                <img
+                  src="img/11zon_cropped (1) (1).png"
+                  alt="Janice"
+                  class="img-responsive rounded-circle"
+                />
+              </div>
+              <div class="col-8">
+                <h3>Janice</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                  repudiandae iusto fuga laboriosam? Blanditiis, quidem.
+                </p>
+                <p>
+                  Putra dari Bpk. ipsum <br />
+                  dan <br />
+                  Ibu lorem
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
   <section id="info" class="info">
     <div class="container">
